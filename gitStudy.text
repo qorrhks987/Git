@@ -14,3 +14,8 @@ cd userA
 git init
 git checkout -b main : main브랜치를 만들어서 해당 브랜치로 이동
 git status : 현재 상태확인
+
+<note pad에 쓴글 원하는 폴더에 저장>
+
+git add gitStudy.text
+git commit -m '[A] 처음으로 GIT COMMIT 한 날'
