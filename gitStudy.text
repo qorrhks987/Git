@@ -1,0 +1,16 @@
+사용자 a가 작성한 파일입니다.
+
+1.계정 정보 등록
+git config --global user.name '사용자'
+git config --global user.email '이메일'
+
+확인법-> git config --global --list
+
+2.폴더생성 / 폴더를 git이 관리하는 폴더로 만들기
+cd /c/code/git
+
+cd userA
+
+git init
+git checkout -b main : main브랜치를 만들어서 해당 브랜치로 이동
+git status : 현재 상태확인
